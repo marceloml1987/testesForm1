@@ -1,0 +1,5 @@
+var INICIO_0 = 0;
+var INICIO = 1;
+var ALTERACAO = 8;
+var ATIVIDADE_DP = 15;
+var ATIVIDADE_GESTOR = 2;

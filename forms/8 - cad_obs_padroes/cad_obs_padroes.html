@@ -1,0 +1,43 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="/portal/resources/style-guide/css/fluig-style-guide.min.css"/>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script type="text/javascript" src="/portal/resources/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="fluig-style-guide">
+<form name="form" role="form">
+
+	<div class="panel panel-default identificacao">
+		<div class="panel-heading ">
+			<h3 class="panel-title">Cadastro de Observações</h3>
+		</div>
+		
+		<div class="form-group row">
+			<div class="col-md-4">
+				<label for="codigo_obs">C&oacute;digo da Observa&ccedil;&atilde;o</label> 							
+				<input type="text" class="form-control" name="codigo_obs" id="codigo_obs" mask="0000000000" maxlength="10" />
+			</div>
+			<div class="col-md-8">
+				<label for="ds_obs">Descri&ccedil;&atilde;o da Observa&ccedil;&atilde;o</label> 							
+				<input type="text" class="form-control" name="ds_obs" id="ds_obs" maxlength="400" />
+			</div>				
+		</div>
+								
+		<div class="row">
+			<div class="col-md-5">							
+				<div>
+				    <input name="aprovadorComercial" id="aprovadorComercial" type="checkbox">Aprovador Comercial
+				    <input name="aprovadorRH" id="aprovadorRH" type="checkbox">Aprovador RH								    								    						    
+				</div>																			
+			</div>
+		</div>				
+			
+	</div>
+
+</form>
+</div>
+</body>
+</html>

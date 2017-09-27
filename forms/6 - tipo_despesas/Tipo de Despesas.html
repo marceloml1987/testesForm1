@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Tipo de Despesas</title>
+	<link type="text/css" rel="stylesheet" href="/portal/resources/style-guide/css/fluig-style-guide.min.css"/>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script type="text/javascript" src="/portal/resources/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="fluig-style-guide">
+	<div class="container-fluid">
+		<div class="row">
+            <div class="col-lg-12">
+                <h1></h1>
+            </div>
+        </div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h1 class="panel-title" align="center">Tipo de Despesas</h1>
+			</div>
+ 			<div class="panel-body">
+				<form role="form">
+					<div class="form-group">
+						<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-2">
+								<label>C&oacute;digo</label>
+								<input class="form-control" name="codigodespesa" type="text" mask="0000000000" maxlength="10">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<label>Descri&ccedil;&atilde;o</label>
+										<input class="form-control" name="descricao" type="text" rows="4">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-5">							
+								<div  id="switchInLot" class="bs-example" style="padding-bottom: 24px;">
+								    <input name="supervisor" id="supervisor" type="checkbox">Supervisor
+								    <input name="promotor" id="promotor" type="checkbox">Promotor
+								    <input name="representante" id="representante" type="checkbox">Representante								    						    
+								</div>																			
+							</div>
+						</div>
+					</div>
+					<div class="row" align="center">
+						<button class="btn btn-primary" type="reset">Limpar</button>
+					</div>
+                </form>                        								                    
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
